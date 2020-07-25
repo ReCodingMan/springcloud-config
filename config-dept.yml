@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: test
 
 ---
 
@@ -52,7 +52,7 @@ mybatis:
 
 # spring配置
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: springcloud-config-dept
   datasource:
